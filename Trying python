@@ -1,0 +1,18 @@
+from typing import Set, Tuple, Dict
+
+#Déclaration de l'alias Temps
+
+Time = Dict[int,int,int]
+
+time_1 : Time
+time_1={1,2,3}
+
+def preparation_time(time:Time)->int:
+    """affiche le temps de prépration de la recette"""
+    k:int
+
+    for k in time:
+        return time[0]
+
+assert preparation_time(time_1)==1
+
